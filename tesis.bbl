@@ -1,0 +1,1890 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Johnell2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6ee41e62e6c8b8124740eff6794e64f8}{%
+           family={Johnell},
+           familyi={J\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6a96ab10855e1db1e76ba9ee0b8f80cc}{%
+           family={Kanis},
+           familyi={K\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4998ea401467a9936865d2750d350a10}
+      \strng{fullhash}{4998ea401467a9936865d2750d350a10}
+      \strng{bibnamehash}{4998ea401467a9936865d2750d350a10}
+      \strng{authorbibnamehash}{4998ea401467a9936865d2750d350a10}
+      \strng{authornamehash}{4998ea401467a9936865d2750d350a10}
+      \strng{authorfullhash}{4998ea401467a9936865d2750d350a10}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Osteoporosis International}
+      \field{number}{12}
+      \field{title}{An estimate of the worldwide prevalence and disability associated with osteoporotic fractures}
+      \field{volume}{17}
+      \field{year}{2006}
+      \field{pages}{1726\bibrangedash 1733}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s00198-006-0172-4
+      \endverb
+    \endentry
+    \entry{Kanis2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=6a96ab10855e1db1e76ba9ee0b8f80cc}{%
+           family={Kanis},
+           familyi={K\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3123e6007b545c991008fe45f0caef2a}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9a352cdc25386d2d55012b0ca1775ec9}{%
+           family={Rizzoli},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ed670611ee31fdb50cbf3664b312a250}{%
+           family={Reginster},
+           familyi={R\bibinitperiod},
+           given={J.-Y.},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{81e21100d332af505b26deca816ba867}
+      \strng{fullhash}{9ab631a0b71c9d7f63a4c197a4c216c2}
+      \strng{bibnamehash}{81e21100d332af505b26deca816ba867}
+      \strng{authorbibnamehash}{81e21100d332af505b26deca816ba867}
+      \strng{authornamehash}{81e21100d332af505b26deca816ba867}
+      \strng{authorfullhash}{9ab631a0b71c9d7f63a4c197a4c216c2}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Osteoporosis International}
+      \field{title}{European guidance for the diagnosis and management of osteoporosis in postmenopausal women}
+      \field{volume}{30}
+      \field{year}{2019}
+      \field{pages}{3\bibrangedash 44}
+      \range{pages}{42}
+      \verb{doi}
+      \verb 10.1007/s00198-018-4704-5
+      \endverb
+    \endentry
+    \entry{CerdasPerez2026}{article}{}
+      \name{author}{6}{}{%
+        {{hash=2b03e1effd8c5c11aea54bae7a756f2f}{%
+           family={Cerdas-Pérez},
+           familyi={C\bibinithyphendelim P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8652829e41d90b892e4650662416eee1}{%
+           family={Cruz-Priego},
+           familyi={C\bibinithyphendelim P\bibinitperiod},
+           given={G.-A.},
+           giveni={G\bibinithyphendelim A\bibinitperiod}}}%
+        {{hash=c8199b5812a13e4b1c3bc2acd84d5abb}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0970e5ff30611e5c258d4b9972c79d38}{%
+           family={Ortiz-Barboza},
+           familyi={O\bibinithyphendelim B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c5241bd658251d1125da5bcb60113430}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6a96ab10855e1db1e76ba9ee0b8f80cc}{%
+           family={Kanis},
+           familyi={K\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{61898c6fe1b5b89e545797affbdb0111}
+      \strng{fullhash}{f411f9bb550d8e63f63dd65a6d2fff3f}
+      \strng{bibnamehash}{61898c6fe1b5b89e545797affbdb0111}
+      \strng{authorbibnamehash}{61898c6fe1b5b89e545797affbdb0111}
+      \strng{authornamehash}{61898c6fe1b5b89e545797affbdb0111}
+      \strng{authorfullhash}{f411f9bb550d8e63f63dd65a6d2fff3f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Archives of Osteoporosis}
+      \field{number}{1}
+      \field{title}{Epidemiology of hip fractures in {Costa Rica} and development of country-specific thresholds to estimate fracture risk}
+      \field{volume}{21}
+      \field{year}{2026}
+      \field{pages}{30}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s11657-026-01659-z
+      \endverb
+    \endentry
+    \entry{Medina2025}{article}{}
+      \name{author}{7}{}{%
+        {{hash=c7ffe6f45a6d33df2ed794fd41506996}{%
+           family={Medina},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5823f96fa7afe739637d1536cd8644ae}{%
+           family={Campusano},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2b03e1effd8c5c11aea54bae7a756f2f}{%
+           family={Cerdas-Pérez},
+           familyi={C\bibinithyphendelim P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=99a168449f1cffc11626c706725fe7c2}{%
+           family={Calo},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=23915c4f589f92fa3a2b93ced2d19656}{%
+           family={Wullich},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0715c63069ba6cd1bd452877788d2001}{%
+           family={Muzzi-Camargos},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c8199b5812a13e4b1c3bc2acd84d5abb}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8aef3be23e1788986dc413b4917a9b4a}
+      \strng{fullhash}{9e9d7a37d25c7f0500a394def2bc62df}
+      \strng{bibnamehash}{8aef3be23e1788986dc413b4917a9b4a}
+      \strng{authorbibnamehash}{8aef3be23e1788986dc413b4917a9b4a}
+      \strng{authornamehash}{8aef3be23e1788986dc413b4917a9b4a}
+      \strng{authorfullhash}{9e9d7a37d25c7f0500a394def2bc62df}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Colombiana de Reumatología}
+      \field{number}{3}
+      \field{title}{Epidemiological data and burden of osteoporosis and fragility fractures in {Latin America}: changes over a decade}
+      \field{volume}{32}
+      \field{year}{2025}
+      \field{pages}{247\bibrangedash 254}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.rcreu.2024.11.002
+      \endverb
+    \endentry
+    \entry{INEC2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7edaababeccfa5f24eaca3b75ab7fb99}{%
+           family={{Instituto Nacional de Estadística y Censos (INEC)}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Instituto Nacional de Estadística y Censos}%
+      }
+      \list{location}{1}{%
+        {San José, Costa Rica}%
+      }
+      \strng{namehash}{7edaababeccfa5f24eaca3b75ab7fb99}
+      \strng{fullhash}{7edaababeccfa5f24eaca3b75ab7fb99}
+      \strng{bibnamehash}{7edaababeccfa5f24eaca3b75ab7fb99}
+      \strng{authorbibnamehash}{7edaababeccfa5f24eaca3b75ab7fb99}
+      \strng{authornamehash}{7edaababeccfa5f24eaca3b75ab7fb99}
+      \strng{authorfullhash}{7edaababeccfa5f24eaca3b75ab7fb99}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Proyecciones demográficas que estiman que el 25\,\% de la población de Costa Rica superará los 65 años para 2050}
+      \field{title}{Proyecciones Nacionales de Población 2022--2070}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.inec.cr/poblacion/estimaciones-y-proyecciones-de-poblacion
+      \endverb
+      \verb{url}
+      \verb https://www.inec.cr/poblacion/estimaciones-y-proyecciones-de-poblacion
+      \endverb
+    \endentry
+    \entry{CastroGamboa2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=40e92d3a42d3dd50fd420b2818b4ceec}{%
+           family={Castro-Gamboa},
+           familyi={C\bibinithyphendelim G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=d84b094948c1e674563aca049593f9ce}{%
+           family={Chaves-Castillo},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=800830f1bd0a0007b9762ce9af8b38f8}{%
+           family={González-González},
+           familyi={G\bibinithyphendelim G\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=684d21aa98693b5415984f10bfd29ae7}{%
+           family={Arce-Corrales},
+           familyi={A\bibinithyphendelim C\bibinitperiod},
+           given={L.P.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a7a60a4e0d6c696ad9a5c340f3e1f161}{%
+           family={Solís-Barquero},
+           familyi={S\bibinithyphendelim B\bibinitperiod},
+           given={S.M.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0618c154aa38874b05332fe10a3edcfe}
+      \strng{fullhash}{aaa199711c86dbba4e42de448a463499}
+      \strng{bibnamehash}{0618c154aa38874b05332fe10a3edcfe}
+      \strng{authorbibnamehash}{0618c154aa38874b05332fe10a3edcfe}
+      \strng{authornamehash}{0618c154aa38874b05332fe10a3edcfe}
+      \strng{authorfullhash}{aaa199711c86dbba4e42de448a463499}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Médica Costarricense}
+      \field{number}{1}
+      \field{title}{Factores de riesgo y prevalencia de osteopenia y osteoporosis en mujeres posmenopáusicas diagnosticadas por densitometría ósea}
+      \field{volume}{64}
+      \field{year}{2022}
+      \field{pages}{44\bibrangedash 51}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.51481/amc.v64i1.1217
+      \endverb
+    \endentry
+    \entry{BurnettBowie2024}{article}{}
+      \name{author}{8}{}{%
+        {{hash=087af0970cb9124cbc5bbdcb1ad506e0}{%
+           family={Burnett-Bowie},
+           familyi={B\bibinithyphendelim B\bibinitperiod},
+           given={S.M.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=033485b3533ababc0c4aa1f1413bc7ef}{%
+           family={Wright},
+           familyi={W\bibinitperiod},
+           given={N.C.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=78e8b36a5ee5b838fd24fa7539e8ec1b}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={E.W.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b7569f6279e8aac02a1c5f0975105e8b}{%
+           family={Langsetmo},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3366472db767e6235c79376b4c34ab07}{%
+           family={Yearwood},
+           familyi={Y\bibinitperiod},
+           given={G.M.H.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=85ccca1db881e013397bfc8f75f9bd2d}{%
+           family={Crandall},
+           familyi={C\bibinitperiod},
+           given={C.J.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=82c37b2598799f9a2f799cde0c9f0115}{%
+           family={Leslie},
+           familyi={L\bibinitperiod},
+           given={W.D.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=1f9253a4bad10498285d6d5304354e90}{%
+           family={Cauley},
+           familyi={C\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{209221eb2b911ef9e9ce82b62e5eb931}
+      \strng{fullhash}{5a52b7febe19efedc4e988df4a88e1b5}
+      \strng{bibnamehash}{209221eb2b911ef9e9ce82b62e5eb931}
+      \strng{authorbibnamehash}{209221eb2b911ef9e9ce82b62e5eb931}
+      \strng{authornamehash}{209221eb2b911ef9e9ce82b62e5eb931}
+      \strng{authorfullhash}{5a52b7febe19efedc4e988df4a88e1b5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Bone and Mineral Research}
+      \field{title}{The {American Society for Bone and Mineral Research Task Force} on clinical algorithms for fracture risk report}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1093/jbmr/zjae048
+      \endverb
+    \endentry
+    \entry{Moncada2023}{article}{}
+      \name{author}{10}{}{%
+        {{hash=2f4f53e4eba27fc3356b5ec4ab6eeba0}{%
+           family={Moncada-Jiménez},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=169b44e9d6a54caffa8230c4349b0551}{%
+           family={Dicker},
+           familyi={D\bibinitperiod},
+           given={E.E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=79f4d91664712a2383e0c5e9515bb0a7}{%
+           family={Chacón-Araya},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e26b9bbf12481381d3e0ea55c790bdd8}{%
+           family={Peralta-Brenes},
+           familyi={P\bibinithyphendelim B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3de162bb62bf4c81381be88e3e863b72}{%
+           family={Briceño-Torres},
+           familyi={B\bibinithyphendelim T\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a5ede55771013165c7967e2817583bd0}{%
+           family={Villarreal-Ángeles},
+           familyi={V\bibinithyphendelim Á\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b59e1bf82128b733ecbff31d764afdd3}{%
+           family={Salazar-Villanea},
+           familyi={S\bibinithyphendelim V\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b5b3a914dd438d578e908345bcff2d5b}{%
+           family={Vidoni},
+           familyi={V\bibinitperiod},
+           given={E.D.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=76a5777177346b98fca8e22a2282b555}{%
+           family={Burns},
+           familyi={B\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4e956c9276b31deca6eaa7c43c585c7c}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={D.K.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c89b250a8601799abff9082735e091b4}
+      \strng{fullhash}{cf050f878c7ccea51691647429262ee2}
+      \strng{bibnamehash}{c89b250a8601799abff9082735e091b4}
+      \strng{authorbibnamehash}{c89b250a8601799abff9082735e091b4}
+      \strng{authornamehash}{c89b250a8601799abff9082735e091b4}
+      \strng{authorfullhash}{cf050f878c7ccea51691647429262ee2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cross-Cultural Gerontology}
+      \field{title}{Exploring Handgrip Strength as a Cross-cultural Correlate of Body Composition and Upper Body Strength in Older Adults from {Costa Rica} and {Kansas}}
+      \field{volume}{38}
+      \field{year}{2023}
+      \field{pages}{223\bibrangedash 244}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s10823-023-09481-7
+      \endverb
+    \endentry
+    \entry{Kanis2008}{article}{}
+      \name{author}{5}{}{%
+        {{hash=6a96ab10855e1db1e76ba9ee0b8f80cc}{%
+           family={Kanis},
+           familyi={K\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6ee41e62e6c8b8124740eff6794e64f8}{%
+           family={Johnell},
+           familyi={J\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7799fe7e9694deced1e63e5d93ed429f}{%
+           family={Oden},
+           familyi={O\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c5241bd658251d1125da5bcb60113430}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=38241da7dfd21b1a89c2518215f30dc5}{%
+           family={McCloskey},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{81e21100d332af505b26deca816ba867}
+      \strng{fullhash}{6b880f0de3b579413190fb1977b898b7}
+      \strng{bibnamehash}{81e21100d332af505b26deca816ba867}
+      \strng{authorbibnamehash}{81e21100d332af505b26deca816ba867}
+      \strng{authornamehash}{81e21100d332af505b26deca816ba867}
+      \strng{authorfullhash}{6b880f0de3b579413190fb1977b898b7}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Osteoporosis International}
+      \field{title}{{FRAX} and the assessment of fracture probability in men and women from the {UK}}
+      \field{volume}{19}
+      \field{year}{2008}
+      \field{pages}{385\bibrangedash 397}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1007/s00198-007-0543-5
+      \endverb
+    \endentry
+    \entry{WHO1994}{report}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Health Organization}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{WHO Technical Report Series 843}
+      \field{title}{Assessment of fracture risk and its application to screening for postmenopausal osteoporosis}
+      \field{type}{techreport}
+      \field{year}{1994}
+    \endentry
+    \entry{AibarAlmazan2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a5af8902ea3eff9294fea98a9bac3e19}{%
+           family={Aibar-Almazán},
+           familyi={A\bibinithyphendelim A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8b00da986a4ae4ebad2fa6c0fca76f8d}{%
+           family={Voltes-Martínez},
+           familyi={V\bibinithyphendelim M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4c6a63ce24a93974b548b750b9170b5e}{%
+           family={Castellote-Caballero},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d55334c053ac15087eafda505397bfeb}{%
+           family={Afanador-Restrepo},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={D.F.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f31ded0f610f96611aef46de486716c1}{%
+           family={Carcelén-Fraile},
+           familyi={C\bibinithyphendelim F\bibinitperiod},
+           given={M.\bibnamedelimi del\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=a6a8641537c09207d38f82db1cf27432}{%
+           family={López-Ruiz},
+           familyi={L\bibinithyphendelim R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a49fc10b631f33e0ba5358de4ea42092}
+      \strng{fullhash}{592f59380a04d7474a7fecb98a86995a}
+      \strng{bibnamehash}{a49fc10b631f33e0ba5358de4ea42092}
+      \strng{authorbibnamehash}{a49fc10b631f33e0ba5358de4ea42092}
+      \strng{authornamehash}{a49fc10b631f33e0ba5358de4ea42092}
+      \strng{authorfullhash}{592f59380a04d7474a7fecb98a86995a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Molecular Sciences}
+      \field{number}{16}
+      \field{title}{Current status of the diagnosis and management of osteoporosis}
+      \field{volume}{23}
+      \field{year}{2022}
+      \field{pages}{9465}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ijms23169465
+      \endverb
+    \endentry
+    \entry{Yoo2013}{article}{}
+      \name{author}{7}{}{%
+        {{hash=9e2ccc6745e133f93e465d381d74ea37}{%
+           family={Yoo},
+           familyi={Y\bibinitperiod},
+           given={T.K.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2b31e46bbf78c7f39ef0ede037430cb0}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={S.K.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=af7bb218950e3824ea21e8619f443580}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={D.W.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=acddce2b80b84f03c01772fc54f03b04}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={J.Y.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aa3954a476232e6e781f48e93b7e4ab6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={W.H.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=566435b7f1c7af569ed160bfb5534ade}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1153432b0eb31bf2acad7dcdbfcd3455}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={E.-C.},
+           giveni={E\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc230c3921532184e49358955ae3fb36}
+      \strng{fullhash}{15b3ac0c8993942637bb2d3af2d53f1f}
+      \strng{bibnamehash}{dc230c3921532184e49358955ae3fb36}
+      \strng{authorbibnamehash}{dc230c3921532184e49358955ae3fb36}
+      \strng{authornamehash}{dc230c3921532184e49358955ae3fb36}
+      \strng{authorfullhash}{15b3ac0c8993942637bb2d3af2d53f1f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Yonsei Medical Journal}
+      \field{number}{6}
+      \field{title}{Osteoporosis risk prediction for bone mineral density assessment of postmenopausal women using machine learning}
+      \field{volume}{54}
+      \field{year}{2013}
+      \field{pages}{1321\bibrangedash 1330}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.3349/ymj.2013.54.6.1321
+      \endverb
+    \endentry
+    \entry{Je2025}{article}{}
+      \name{author}{4}{}{%
+        {{hash=71952409c33155ba175e6039abfb2610}{%
+           family={Je},
+           familyi={J\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9a82ea67fbc933eedf8e4dd3cf3bda18}{%
+           family={Hwang},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aa5a7c8780167efaa3ed45566a0806a0}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=03f38c879ca0bc9f1dcbada69ea0519a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce0558c51e04c158d65fb8a9fc9b1dc3}
+      \strng{fullhash}{89af5b62477bc5a173075350340c348f}
+      \strng{bibnamehash}{ce0558c51e04c158d65fb8a9fc9b1dc3}
+      \strng{authorbibnamehash}{ce0558c51e04c158d65fb8a9fc9b1dc3}
+      \strng{authornamehash}{ce0558c51e04c158d65fb8a9fc9b1dc3}
+      \strng{authorfullhash}{89af5b62477bc5a173075350340c348f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Women's Health}
+      \field{title}{Development and evaluation of a machine learning model for osteoporosis risk prediction in {Korean} women}
+      \field{volume}{25}
+      \field{year}{2025}
+      \field{pages}{146}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12905-025-03669-4
+      \endverb
+    \endentry
+    \entry{Jin2025}{article}{}
+      \name{author}{13}{}{%
+        {{hash=852875ef2df9fdb7f658e312c40ad1b2}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d539746d8c6dcf5a0d1f2b4c4a9f59de}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=55dae9235e940b010b67d34223907729}{%
+           family={Yue},
+           familyi={Y\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=52ae33def4997fdba78f83e4f5035919}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=61ad10c626e1d641e0b1d7b5f48d3233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a498ef07e3d0a70a18a471263e71d36d}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=cdfee844c95f916f2619a26fab25991b}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fb677d2a52b977e2cbfd0777060dc8c4}{%
+           family={Bai},
+           familyi={B\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=865de0ad624b442a018417bf6b85083e}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b2ff85d118c95088c7ca004045563aa8}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c792eda15a421cf9cc8d73528e9cf458}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9113b5835843309fa06504ea7ee28c1d}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=4396cd1e24b60fdbc30bd5b25b84817b}{%
+           family={Sheng},
+           familyi={S\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{3af81e748b60b24f55840dcf80c2cd9a}
+      \strng{fullhash}{6292d5e8410ecd0b6bbff44059647512}
+      \strng{bibnamehash}{3af81e748b60b24f55840dcf80c2cd9a}
+      \strng{authorbibnamehash}{3af81e748b60b24f55840dcf80c2cd9a}
+      \strng{authornamehash}{3af81e748b60b24f55840dcf80c2cd9a}
+      \strng{authorfullhash}{6292d5e8410ecd0b6bbff44059647512}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Medical Informatics}
+      \field{title}{Development and validation of explainable machine learning models for female hip osteoporosis using electronic health records}
+      \field{volume}{199}
+      \field{year}{2025}
+      \field{pages}{105889}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ijmedinf.2025.105889
+      \endverb
+    \endentry
+    \entry{Carvalho2025}{article}{}
+      \name{author}{2}{}{%
+        {{hash=de824f24ba51457089257e3f9124f742}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2a13bf806309e92713ef5cd843ce2623}{%
+           family={Gavaia},
+           familyi={G\bibinitperiod},
+           given={P.J.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d74c6230efa6fc2be400e558ca8817f9}
+      \strng{fullhash}{d74c6230efa6fc2be400e558ca8817f9}
+      \strng{bibnamehash}{d74c6230efa6fc2be400e558ca8817f9}
+      \strng{authorbibnamehash}{d74c6230efa6fc2be400e558ca8817f9}
+      \strng{authornamehash}{d74c6230efa6fc2be400e558ca8817f9}
+      \strng{authorfullhash}{d74c6230efa6fc2be400e558ca8817f9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bone}
+      \field{note}{DOI requires verification; article in press at time of submission}
+      \field{title}{Stacking ensemble machine learning for osteoporosis prediction from routine clinical data}
+      \field{year}{2025}
+    \endentry
+    \entry{Rahim2023}{article}{}
+      \name{author}{8}{}{%
+        {{hash=8de8196852432ea574bcc0436c5095de}{%
+           family={Rahim},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ebe06096f113ac154ce8d61c56ef8df1}{%
+           family={Zaki\bibnamedelima Zadeh},
+           familyi={Z\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=46c5413e230db59739c98458a29bda82}{%
+           family={Javanmardi},
+           familyi={J\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dc6a0c916409c6ddb746667bce356d7a}{%
+           family={Komolafe},
+           familyi={K\bibinitperiod},
+           given={T.E.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2554c4a8a0824dd84c0ab65e32616269}{%
+           family={Khalafi},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e0d47adfbcd3b4ab8a2b55657b79334d}{%
+           family={Arjomandi},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0bf7a3c2bd89f739e5258af51c8b5ef1}{%
+           family={Ghofrani},
+           familyi={G\bibinitperiod},
+           given={H.A.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c5b96bd4c481569ed2f7ec8a0f397a62}{%
+           family={Shirbandi},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{df179e2e75300bad9038190218936e34}
+      \strng{fullhash}{ee960ede97bb94058092b5727918572d}
+      \strng{bibnamehash}{df179e2e75300bad9038190218936e34}
+      \strng{authorbibnamehash}{df179e2e75300bad9038190218936e34}
+      \strng{authornamehash}{df179e2e75300bad9038190218936e34}
+      \strng{authorfullhash}{ee960ede97bb94058092b5727918572d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BioMedical Engineering OnLine}
+      \field{title}{Machine learning algorithms for diagnosis of hip bone osteoporosis: a systematic review and meta-analysis}
+      \field{volume}{22}
+      \field{year}{2023}
+      \field{pages}{68}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s12938-023-01132-9
+      \endverb
+    \endentry
+    \entry{Wu2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c84333257e5fef7e25ef4f7a4111077c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6339c4d3aa583ce216087969b7d1cc54}{%
+           family={Chao},
+           familyi={C\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a829ce32b874335f9ac96ac0e3211f82}{%
+           family={Bao},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b16d827b3a41183aa1cc8aaf33509ff2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e66cb4446ecc2270b04a4b878e22bbf0}
+      \strng{fullhash}{1dbd824f5e3a3ac02fac36560cdc8384}
+      \strng{bibnamehash}{e66cb4446ecc2270b04a4b878e22bbf0}
+      \strng{authorbibnamehash}{e66cb4446ecc2270b04a4b878e22bbf0}
+      \strng{authornamehash}{e66cb4446ecc2270b04a4b878e22bbf0}
+      \strng{authorfullhash}{1dbd824f5e3a3ac02fac36560cdc8384}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMJ Open}
+      \field{number}{1}
+      \field{title}{Predictive value of machine learning for fracture risk: a systematic review and meta-analysis}
+      \field{volume}{14}
+      \field{year}{2023}
+      \field{pages}{e071430}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1136/bmjopen-2022-071430
+      \endverb
+    \endentry
+    \entry{Miranda2021}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=b92ed0594c8c022b08319209f476b954}{%
+           family={Miranda},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7572a54a112c26919e62dd668cbdd80e}{%
+           family={Olivares},
+           familyi={O\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bec58408f562d9002dced7f739d8b079}{%
+           family={Munoz},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8d80eb5418273f117e0b69dc418d7e47}{%
+           family={Minonzio},
+           familyi={M\bibinitperiod},
+           given={J.-G.},
+           giveni={J\bibinithyphendelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c8f1752db0606e940619c08c7bfcf8d}
+      \strng{fullhash}{31cb5443d864e40c6a4cc08f130678ef}
+      \strng{bibnamehash}{4c8f1752db0606e940619c08c7bfcf8d}
+      \strng{authorbibnamehash}{4c8f1752db0606e940619c08c7bfcf8d}
+      \strng{authornamehash}{4c8f1752db0606e940619c08c7bfcf8d}
+      \strng{authorfullhash}{31cb5443d864e40c6a4cc08f130678ef}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Latin American Ultrasonics Symposium (LAUS)}
+      \field{title}{Selection of Bone fragility-Related Features Obtained with Bi-Directional Axial Transmission, Through a Machine Learning Strategy}
+      \field{year}{2021}
+    \endentry
+    \entry{Vega2024}{misc}{}
+      \name{author}{6}{}{%
+        {{hash=95fbc911fe753a025272097810e3b270}{%
+           family={Vega},
+           familyi={V\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d55467686fd55593d2ed06fd52428584}{%
+           family={Cure\bibnamedelima Cure},
+           familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6fbb58400b73f19c262ea271a13e66a7}{%
+           family={Luscher},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4cf6fee6ace80b5a22aa8dcd4c044c16}{%
+           family={Ferretti},
+           familyi={F\bibinitperiod},
+           given={J.L.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2466d70ec81cedb3faef7264cd444ed7}{%
+           family={Cointry},
+           familyi={C\bibinitperiod},
+           given={G.R.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b601f4544955ef4b8ec6ccc8b830dd3e}{%
+           family={Capozza},
+           familyi={C\bibinitperiod},
+           given={R.F.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c114004a5b6638651fac7e586950f1b}
+      \strng{fullhash}{c4fde3e2ef3efd10a7de8af21dd966d5}
+      \strng{bibnamehash}{7c114004a5b6638651fac7e586950f1b}
+      \strng{authorbibnamehash}{7c114004a5b6638651fac7e586950f1b}
+      \strng{authornamehash}{7c114004a5b6638651fac7e586950f1b}
+      \strng{authorfullhash}{c4fde3e2ef3efd10a7de8af21dd966d5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Abstract presentado en: American Society for Bone and Mineral Research Annual Meeting ({ASBMR} 2024), Toronto, Canadá}
+      \field{note}{Publicado en: \textit{Journal of Bone and Mineral Research}, suplemento de congreso. Datos confirmados vía SIGEVA-CONICET (bicyt.conicet.gov.ar/fichas/produccion/11796954): n=478 mujeres posmenopáusicas, AUC=0{,}81$\pm$0{,}03, ANN-MLP, 12 variables DXA. Sin DOI, volumen ni páginas disponibles.}
+      \field{title}{Assessing fracture probability in patients with different types of fractures using a pretrained {ANN} model trained with demographic, anthropometric, and densitometric ({DXA}) characteristics}
+      \field{year}{2024}
+    \endentry
+    \entry{Albuquerque2023}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=adfc79d6a93062c25bf77ee33a82d0f3}{%
+           family={Albuquerque},
+           familyi={A\bibinitperiod},
+           given={G.A.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c1ed9417bea5e28048b56569e386c149}{%
+           family={Carvalho},
+           familyi={C\bibinitperiod},
+           given={D.D.A.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=fa6821cae180cb9553a35e332028c5e3}{%
+           family={Cruz},
+           familyi={C\bibinitperiod},
+           given={A.S.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a64ae8b56fefb81411d4dc0d3099ef75}
+      \strng{fullhash}{a64ae8b56fefb81411d4dc0d3099ef75}
+      \strng{bibnamehash}{a64ae8b56fefb81411d4dc0d3099ef75}
+      \strng{authorbibnamehash}{a64ae8b56fefb81411d4dc0d3099ef75}
+      \strng{authornamehash}{a64ae8b56fefb81411d4dc0d3099ef75}
+      \strng{authorfullhash}{a64ae8b56fefb81411d4dc0d3099ef75}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Osteoporosis screening using machine learning and electromagnetic waves}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{pages}{12865}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-023-40104-w
+      \endverb
+    \endentry
+    \entry{Hussain2024}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=9d4c0a2d4d0c2e39620eb5a79e84b5ec}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{68c027cb55bd8b21c3bd2f908ff0d2f8}
+      \strng{fullhash}{68c027cb55bd8b21c3bd2f908ff0d2f8}
+      \strng{bibnamehash}{68c027cb55bd8b21c3bd2f908ff0d2f8}
+      \strng{authorbibnamehash}{68c027cb55bd8b21c3bd2f908ff0d2f8}
+      \strng{authornamehash}{68c027cb55bd8b21c3bd2f908ff0d2f8}
+      \strng{authorfullhash}{68c027cb55bd8b21c3bd2f908ff0d2f8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diagnostics}
+      \field{title}{{DXA} femur image segmentation using {FCNN}}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{pages}{1328}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/diagnostics14131328
+      \endverb
+    \endentry
+    \entry{Ong2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=9d7e12ac5c5c22c14d68769f4829c33d}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=4c280bba2c4aab9d2c900e9e6e6febfc}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={R.W.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=267062c8871426a9f67a137e652107bd}{%
+           family={Makmur},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df85e9611b90c963efa612667c42f1ab}{%
+           family={Low},
+           familyi={L\bibinitperiod},
+           given={X.Z.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=3d3d520517d913f7386dc445cd2967ce}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={D.C.K.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4549e7f5b8e0dde91a751b4f26249582}{%
+           family={Taneja},
+           familyi={T\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c781422b2b64da01c3606cac91aeac2f}{%
+           family={Hallinan},
+           familyi={H\bibinitperiod},
+           given={J.T.P.D.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e4be9dc53735a30157918678de3942fb}
+      \strng{fullhash}{38a84d9ebec422dc3860736fae413afe}
+      \strng{bibnamehash}{e4be9dc53735a30157918678de3942fb}
+      \strng{authorbibnamehash}{e4be9dc53735a30157918678de3942fb}
+      \strng{authornamehash}{e4be9dc53735a30157918678de3942fb}
+      \strng{authorfullhash}{38a84d9ebec422dc3860736fae413afe}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioengineering}
+      \field{number}{12}
+      \field{title}{Artificial Intelligence Applications for Osteoporosis Classification Using Computed Tomography}
+      \field{volume}{10}
+      \field{year}{2023}
+      \field{pages}{1364}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/bioengineering10121364
+      \endverb
+    \endentry
+    \entry{Conforti2026}{article}{}
+      \name{author}{7}{}{%
+        {{hash=f03b87f81a45e0f813a85b8125baa0ba}{%
+           family={Conforti},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b9b3145e628364e06e200d095ff4178a}{%
+           family={Ruggiero},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bbd043808aebcacd6cd2847195152947}{%
+           family={Lucchetti},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e354cb68cf9e9a812d3634ebd2747e89}{%
+           family={Cipolloni},
+           familyi={C\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d177959963f63fd8c52c421b81289fda}{%
+           family={Galati},
+           familyi={G\bibinitperiod},
+           given={F.D.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=45983f6c53e69cfdd836e92c3a10f615}{%
+           family={Gentile},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d10d99c3929d0703f9a89466a3b2b7e1}{%
+           family={{Lo Gullo}},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{be5693a0ed7ef95129d64b36317f9ba4}
+      \strng{fullhash}{6300cb9fa4bf7472af8e3699d8c3810a}
+      \strng{bibnamehash}{be5693a0ed7ef95129d64b36317f9ba4}
+      \strng{authorbibnamehash}{be5693a0ed7ef95129d64b36317f9ba4}
+      \strng{authornamehash}{be5693a0ed7ef95129d64b36317f9ba4}
+      \strng{authorfullhash}{6300cb9fa4bf7472af8e3699d8c3810a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medicina}
+      \field{number}{1}
+      \field{title}{Artificial Intelligence and Machine Learning in the Diagnosis and Management of Osteoporosis: {A} Comprehensive Review}
+      \field{volume}{62}
+      \field{year}{2026}
+      \field{pages}{27}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/medicina62010027
+      \endverb
+    \endentry
+    \entry{Wu2025multimodal}{article}{}
+      \name{author}{5}{}{%
+        {{hash=cfc592e67cc246310d6f048315973684}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=40ea378bb90967f5c7e697d545f01107}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=d461876c1fc39f9abb642972d26d1442}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c7c26760924611948dfb6a123cfb034c}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b093c37857d6bc46f3f1e883b5cb437e}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9958455d9294ffae528fe3e37eca75a9}
+      \strng{fullhash}{ac4f938e81d0f6c4d06abbbce2146030}
+      \strng{bibnamehash}{9958455d9294ffae528fe3e37eca75a9}
+      \strng{authorbibnamehash}{9958455d9294ffae528fe3e37eca75a9}
+      \strng{authornamehash}{9958455d9294ffae528fe3e37eca75a9}
+      \strng{authorfullhash}{ac4f938e81d0f6c4d06abbbce2146030}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{JMIR Medical Informatics}
+      \field{note}{Co-primer autores: Tang J. y Yin X. Wu D. es autor correspondiente. n=1.780 pacientes, Chongqing Daping Hospital, China.}
+      \field{title}{Fusion of {X-Ray} Images and Clinical Data for a Multimodal Deep Learning Prediction Model of Osteoporosis: Algorithm Development and Validation Study}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{pages}{e70738}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2196/70738
+      \endverb
+    \endentry
+    \entry{Montiel2023}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=07f6ebdfd2d795e845ec5124566ac6ca}{%
+           family={Montiel-Ojeda},
+           familyi={M\bibinithyphendelim O\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=2b03e1effd8c5c11aea54bae7a756f2f}{%
+           family={Cerdas-Pérez},
+           familyi={C\bibinithyphendelim P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c8199b5812a13e4b1c3bc2acd84d5abb}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{540fa94ed441f23355361d8b8c017318}
+      \strng{fullhash}{540fa94ed441f23355361d8b8c017318}
+      \strng{bibnamehash}{540fa94ed441f23355361d8b8c017318}
+      \strng{authorbibnamehash}{540fa94ed441f23355361d8b8c017318}
+      \strng{authornamehash}{540fa94ed441f23355361d8b8c017318}
+      \strng{authorfullhash}{540fa94ed441f23355361d8b8c017318}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nutrición Hospitalaria}
+      \field{title}{Dietary calcium intake in adults from {Costa Rica} and {Panama}}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{pages}{576\bibrangedash 583}
+      \range{pages}{8}
+    \endentry
+    \entry{DeLong1988}{article}{}
+      \name{author}{3}{}{%
+        {{hash=568df713b4156745d4a253bf9a0e7104}{%
+           family={DeLong},
+           familyi={D\bibinitperiod},
+           given={E.R.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ab8a0daa43fcefc86d91d263e1d4f670}{%
+           family={DeLong},
+           familyi={D\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cf9ef6e821efbd14a8a972da700f269b}{%
+           family={Clarke-Pearson},
+           familyi={C\bibinithyphendelim P\bibinitperiod},
+           given={D.L.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c8753f021a32f72d7b1c7aeced682fb}
+      \strng{fullhash}{1c8753f021a32f72d7b1c7aeced682fb}
+      \strng{bibnamehash}{1c8753f021a32f72d7b1c7aeced682fb}
+      \strng{authorbibnamehash}{1c8753f021a32f72d7b1c7aeced682fb}
+      \strng{authornamehash}{1c8753f021a32f72d7b1c7aeced682fb}
+      \strng{authorfullhash}{1c8753f021a32f72d7b1c7aeced682fb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrics}
+      \field{number}{3}
+      \field{title}{Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach}
+      \field{volume}{44}
+      \field{year}{1988}
+      \field{pages}{837\bibrangedash 845}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.2307/2531595
+      \endverb
+    \endentry
+    \entry{Beck1990}{article}{}
+      \name{author}{5}{}{%
+        {{hash=ffaa064f4005591d977406dc10d56151}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={T.J.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=762bd7690ee6fb92070ee4e3e02b22cb}{%
+           family={Ruff},
+           familyi={R\bibinitperiod},
+           given={C.B.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=eef8076492c7ea8f73537cc1940a5a0f}{%
+           family={Warden},
+           familyi={W\bibinitperiod},
+           given={K.E.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=199ab8a6f753b1b9983e69a6b31a9ddf}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={W.W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=af5616a0d7dea4d06dd2ac042d6737e8}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={G.U.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{973b4fafe3ab2c80615ce8ea1e496ab5}
+      \strng{fullhash}{53a14cc392b38c2d9057b22d64149ba5}
+      \strng{bibnamehash}{973b4fafe3ab2c80615ce8ea1e496ab5}
+      \strng{authorbibnamehash}{973b4fafe3ab2c80615ce8ea1e496ab5}
+      \strng{authornamehash}{973b4fafe3ab2c80615ce8ea1e496ab5}
+      \strng{authorfullhash}{53a14cc392b38c2d9057b22d64149ba5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Investigative Radiology}
+      \field{number}{1}
+      \field{title}{Predicting femoral neck strength from bone mineral data: a structural approach}
+      \field{volume}{25}
+      \field{year}{1990}
+      \field{pages}{6\bibrangedash 18}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1097/00004424-199001000-00004
+      \endverb
+    \endentry
+    \entry{Rathbun2020_HSA}{article}{}
+      \name{author}{9}{}{%
+        {{hash=949467de4602e117cece9bfb26a5fcaf}{%
+           family={Rathbun},
+           familyi={R\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0bde26a0b238d0158200aa7cde51e84}{%
+           family={Magaziner},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=686f908797c50e5a7c4d7eeb9eb9284b}{%
+           family={Shardell},
+           familyi={S\bibinitperiod},
+           given={M.D.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ffaa064f4005591d977406dc10d56151}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={T.J.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=bb7576f2756b8526f5ed7db980046b98}{%
+           family={Yerges-Armstrong},
+           familyi={Y\bibinithyphendelim A\bibinitperiod},
+           given={L.M.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8a89d2600fdb48f0470cf4aa0a128bb7}{%
+           family={Orwig},
+           familyi={O\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ba1e8bacb9e237db9ff97b80bc751808}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={G.E.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=79cb0458c3d45aae2b58332683212c1d}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={A.S.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fac8e4e0105926e7eec4f07b047bac29}{%
+           family={Hochberg},
+           familyi={H\bibinitperiod},
+           given={M.C.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{fullhash}{a79faa18d255c1ac2b930f161dcb65e4}
+      \strng{bibnamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authorbibnamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authornamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authorfullhash}{a79faa18d255c1ac2b930f161dcb65e4}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bone}
+      \field{title}{Differences in Geometric Strength at the Contralateral Hip between Men with Hip Fracture and Non-Fractured Comparators}
+      \field{volume}{132}
+      \field{year}{2020}
+      \field{pages}{115187}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.bone.2019.115187
+      \endverb
+    \endentry
+    \entry{Rathbun2016_Sex}{article}{}
+      \name{author}{8}{}{%
+        {{hash=949467de4602e117cece9bfb26a5fcaf}{%
+           family={Rathbun},
+           familyi={R\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f1d236cafa57e7524c7d87531dc53f88}{%
+           family={Shardell},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8a89d2600fdb48f0470cf4aa0a128bb7}{%
+           family={Orwig},
+           familyi={O\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f5df1082f27a896c9f8574ca96cdcc9f}{%
+           family={Hebel},
+           familyi={H\bibinitperiod},
+           given={J.R.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ba1e8bacb9e237db9ff97b80bc751808}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={G.E.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ffaa064f4005591d977406dc10d56151}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={T.J.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c0bde26a0b238d0158200aa7cde51e84}{%
+           family={Magaziner},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fac8e4e0105926e7eec4f07b047bac29}{%
+           family={Hochberg},
+           familyi={H\bibinitperiod},
+           given={M.C.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{fullhash}{21fa83fd0ef036abbc93e0633a79f03f}
+      \strng{bibnamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authorbibnamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authornamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authorfullhash}{21fa83fd0ef036abbc93e0633a79f03f}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bone}
+      \field{title}{Difference in the Trajectory of Change in Bone Geometry as Measured by Hip Structural Analysis in the Narrow Neck, Intertrochanteric Region, and Femoral Shaft between Men and Women Following Hip Fracture}
+      \field{volume}{92}
+      \field{year}{2016}
+      \field{pages}{124\bibrangedash 131}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.bone.2016.08.020
+      \endverb
+    \endentry
+    \entry{Rathbun2018_BMD}{article}{}
+      \name{author}{7}{}{%
+        {{hash=949467de4602e117cece9bfb26a5fcaf}{%
+           family={Rathbun},
+           familyi={R\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c0bde26a0b238d0158200aa7cde51e84}{%
+           family={Magaziner},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=686f908797c50e5a7c4d7eeb9eb9284b}{%
+           family={Shardell},
+           familyi={S\bibinitperiod},
+           given={M.D.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bb7576f2756b8526f5ed7db980046b98}{%
+           family={Yerges-Armstrong},
+           familyi={Y\bibinithyphendelim A\bibinitperiod},
+           given={L.M.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8a89d2600fdb48f0470cf4aa0a128bb7}{%
+           family={Orwig},
+           familyi={O\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ba1e8bacb9e237db9ff97b80bc751808}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={G.E.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=fac8e4e0105926e7eec4f07b047bac29}{%
+           family={Hochberg},
+           familyi={H\bibinitperiod},
+           given={M.C.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{fullhash}{e16397cfc8e0f940aff238741a8118b6}
+      \strng{bibnamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authorbibnamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authornamehash}{5543b65b16f0c47f7bf9550727887093}
+      \strng{authorfullhash}{e16397cfc8e0f940aff238741a8118b6}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Osteoporosis International}
+      \field{number}{2}
+      \field{title}{Older men who sustain a hip fracture experience greater declines in bone mineral density at the contralateral hip than non-fractured comparators}
+      \field{volume}{29}
+      \field{year}{2018}
+      \field{pages}{365\bibrangedash 373}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/s00198-017-4280-0
+      \endverb
+    \endentry
+    \entry{Genant1993}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3452df413945480eed771263f175f744}{%
+           family={Genant},
+           familyi={G\bibinitperiod},
+           given={H.K.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e5243d9a738ea576301dbbeef048ddc6}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={C.Y.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=753077cee6865896370169f122d31b69}{%
+           family={Kuijk},
+           familyi={K\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=e5e1ed7b1db241ecece1925f1e6b0287}{%
+           family={Nevitt},
+           familyi={N\bibinitperiod},
+           given={M.C.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{264ddeb5e69641059c98e2989fc2165d}
+      \strng{fullhash}{2427a2a3d0d1655af96141df287f19a5}
+      \strng{bibnamehash}{264ddeb5e69641059c98e2989fc2165d}
+      \strng{authorbibnamehash}{264ddeb5e69641059c98e2989fc2165d}
+      \strng{authornamehash}{264ddeb5e69641059c98e2989fc2165d}
+      \strng{authorfullhash}{2427a2a3d0d1655af96141df287f19a5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Bone and Mineral Research}
+      \field{number}{9}
+      \field{title}{Vertebral fracture assessment using a semiquantitative technique}
+      \field{volume}{8}
+      \field{year}{1993}
+      \field{pages}{1137\bibrangedash 1148}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/jbmr.5650080915
+      \endverb
+    \endentry
+    \entry{Kirk2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e092c02596377fb3f832efc4bdb46fb5}{%
+           family={Kirk},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b2d314ca3c8bce548322379b52bf0374}{%
+           family={Zanker},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=eb9a91e3f74fe014256eb59a6a851e69}{%
+           family={Duque},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{98f9524736fc3674b5afe26b05bd1091}
+      \strng{fullhash}{98f9524736fc3674b5afe26b05bd1091}
+      \strng{bibnamehash}{98f9524736fc3674b5afe26b05bd1091}
+      \strng{authorbibnamehash}{98f9524736fc3674b5afe26b05bd1091}
+      \strng{authornamehash}{98f9524736fc3674b5afe26b05bd1091}
+      \strng{authorfullhash}{98f9524736fc3674b5afe26b05bd1091}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cachexia, Sarcopenia and Muscle}
+      \field{number}{3}
+      \field{title}{Osteosarcopenia: epidemiology, diagnosis, and treatment---facts and numbers}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{pages}{609\bibrangedash 618}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1002/jcsm.12567
+      \endverb
+    \endentry
+    \entry{Oursler2020}{article}{}
+      \name{author}{8}{}{%
+        {{hash=632be3a2c97129e908ac68ffb0a9b03c}{%
+           family={Oursler},
+           familyi={O\bibinitperiod},
+           given={K.K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c8779ce120914c4656ca61373a221611}{%
+           family={Iranmanesh},
+           familyi={I\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f76a420b3dfe36d09861d918fc06fa6}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b4e2ac7e19cbd00900a0755fc4927706}{%
+           family={Birkett},
+           familyi={B\bibinitperiod},
+           given={K.L.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f58f7f22e4498ee8bdc900066ef0ea6d}{%
+           family={Briggs},
+           familyi={B\bibinitperiod},
+           given={B.C.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=90eaa10aa37821b707c8896dcf215129}{%
+           family={Garner},
+           familyi={G\bibinitperiod},
+           given={D.C.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=72c95661467876e8844cc5a94b39f899}{%
+           family={Sorkin},
+           familyi={S\bibinitperiod},
+           given={J.D.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=79cb0458c3d45aae2b58332683212c1d}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={A.S.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fe40b548d032cc4e7f6fb353b235e589}
+      \strng{fullhash}{355acfd084216c915e5d92920c2c87f5}
+      \strng{bibnamehash}{fe40b548d032cc4e7f6fb353b235e589}
+      \strng{authorbibnamehash}{fe40b548d032cc4e7f6fb353b235e589}
+      \strng{authornamehash}{fe40b548d032cc4e7f6fb353b235e589}
+      \strng{authorfullhash}{355acfd084216c915e5d92920c2c87f5}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AIDS Research and Human Retroviruses}
+      \field{note}{Corrección 5-Jul-2026: journal, volumen, páginas y DOI corregidos según PubMed PMID:31762303}
+      \field{number}{4}
+      \field{title}{Short Communication: Low Muscle Mass Is Associated With Osteoporosis in Older Adults Living With {HIV}}
+      \field{volume}{36}
+      \field{year}{2020}
+      \field{pages}{300\bibrangedash 302}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1089/AID.2019.0207
+      \endverb
+    \endentry
+    \entry{Barrientos2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=8824a1e1980ca15ce722f2f262230134}{%
+           family={Barrientos-Calvo},
+           familyi={B\bibinithyphendelim C\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=019cd75b3a43d944c0240aa5f3295578}{%
+           family={Picado-Ovares},
+           familyi={P\bibinithyphendelim O\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0b1cab17ab38b61684e5348b4eb70e1}
+      \strng{fullhash}{e0b1cab17ab38b61684e5348b4eb70e1}
+      \strng{bibnamehash}{e0b1cab17ab38b61684e5348b4eb70e1}
+      \strng{authorbibnamehash}{e0b1cab17ab38b61684e5348b4eb70e1}
+      \strng{authornamehash}{e0b1cab17ab38b61684e5348b4eb70e1}
+      \strng{authorfullhash}{e0b1cab17ab38b61684e5348b4eb70e1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Acta Médica Costarricense}
+      \field{number}{2}
+      \field{title}{Prevalencia de sarcopenia en población adulta mayor en {Costa Rica}}
+      \field{volume}{63}
+      \field{year}{2021}
+      \field{pages}{122\bibrangedash 130}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.51481/amc.v63i2.1121
+      \endverb
+    \endentry
+    \entry{Edwards2015}{article}{}
+      \name{author}{5}{}{%
+        {{hash=91375eda14755b7342413dc36d9aa6bb}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={M.H.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0ef6d917e1d6ba890a3d0eb098e1a871}{%
+           family={Dennison},
+           familyi={D\bibinitperiod},
+           given={E.M.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6ad2ec9528bc8eb438a5f81967d6fd19}{%
+           family={Aihie\bibnamedelima Sayer},
+           familyi={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a6155135a306bddfc30cc4f52d1924e6}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3123e6007b545c991008fe45f0caef2a}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d52090ea3b1a42581fee8345b1d1a72}
+      \strng{fullhash}{b0cb5a780fc81443c63043ead4e0dca1}
+      \strng{bibnamehash}{9d52090ea3b1a42581fee8345b1d1a72}
+      \strng{authorbibnamehash}{9d52090ea3b1a42581fee8345b1d1a72}
+      \strng{authornamehash}{9d52090ea3b1a42581fee8345b1d1a72}
+      \strng{authorfullhash}{b0cb5a780fc81443c63043ead4e0dca1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bone}
+      \field{title}{Osteoporosis and sarcopenia in older age}
+      \field{volume}{80}
+      \field{year}{2015}
+      \field{pages}{126\bibrangedash 130}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.bone.2015.04.016
+      \endverb
+    \endentry
+    \entry{Chawla2002}{article}{}
+      \name{author}{4}{}{%
+        {{hash=517c300d6831b45e817a12c128e0d3c0}{%
+           family={Chawla},
+           familyi={C\bibinitperiod},
+           given={N.V.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8aa8d84745e95ea59fccbcc6d34e77b7}{%
+           family={Bowyer},
+           familyi={B\bibinitperiod},
+           given={K.W.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d767a8acee927fe772fe5ec34f93073f}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={L.O.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d66be0948a5085778a35663d6fd6c8cc}{%
+           family={Kegelmeyer},
+           familyi={K\bibinitperiod},
+           given={W.P.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{25994a8b1023c628464384a919fac03e}
+      \strng{fullhash}{8c67ad2e38d858dfc32312d1f697f6e2}
+      \strng{bibnamehash}{25994a8b1023c628464384a919fac03e}
+      \strng{authorbibnamehash}{25994a8b1023c628464384a919fac03e}
+      \strng{authornamehash}{25994a8b1023c628464384a919fac03e}
+      \strng{authorfullhash}{8c67ad2e38d858dfc32312d1f697f6e2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Artificial Intelligence Research}
+      \field{title}{{SMOTE}: Synthetic minority over-sampling technique}
+      \field{volume}{16}
+      \field{year}{2002}
+      \field{pages}{321\bibrangedash 357}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1613/jair.953
+      \endverb
+    \endentry
+    \entry{Lundberg2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=17729c98bff4193e66ade748c316e019}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={S.M.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9d931b4fd8b21dc3e50b8808fcb7f7c9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={S.-I.},
+           giveni={S\bibinithyphendelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a9ed5ad08eee8c6c02937edf304b636}
+      \strng{fullhash}{4a9ed5ad08eee8c6c02937edf304b636}
+      \strng{bibnamehash}{4a9ed5ad08eee8c6c02937edf304b636}
+      \strng{authorbibnamehash}{4a9ed5ad08eee8c6c02937edf304b636}
+      \strng{authornamehash}{4a9ed5ad08eee8c6c02937edf304b636}
+      \strng{authorfullhash}{4a9ed5ad08eee8c6c02937edf304b636}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{A unified approach to interpreting model predictions}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{pages}{4765\bibrangedash 4774}
+      \range{pages}{10}
+    \endentry
+    \entry{CIMOHUdb2026}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=eb7a22fdd291e222222304cba4d9b460}{%
+           family={{Centro de Investigación en Movimiento Humano, Universidad de Costa Rica}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb7a22fdd291e222222304cba4d9b460}
+      \strng{fullhash}{eb7a22fdd291e222222304cba4d9b460}
+      \strng{bibnamehash}{eb7a22fdd291e222222304cba4d9b460}
+      \strng{authorbibnamehash}{eb7a22fdd291e222222304cba4d9b460}
+      \strng{authornamehash}{eb7a22fdd291e222222304cba4d9b460}
+      \strng{authorfullhash}{eb7a22fdd291e222222304cba4d9b460}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Base de datos institucional, 2009--2026}
+      \field{note}{9.426 exámenes DXA de 3.231 pacientes adultos costarricenses con examen registrado (3.240 en la base de datos). Acceso restringido sujeto a aprobación del Comité Ético Científico de la UCR}
+      \field{title}{Base de datos longitudinal de densitometría ósea {DXA} del {CIMOHU}}
+      \field{year}{2026}
+    \endentry
+    \entry{ChaconAraya2024}{article}{}
+      \name{author}{3}{}{%
+        {{hash=79f4d91664712a2383e0c5e9515bb0a7}{%
+           family={Chacón-Araya},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6d72c891e916a4151936ace07c4933a3}{%
+           family={Carpio-Rivera},
+           familyi={C\bibinithyphendelim R\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2f4f53e4eba27fc3356b5ec4ab6eeba0}{%
+           family={Moncada-Jiménez},
+           familyi={M\bibinithyphendelim J\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e636e3a52494dc19e2bea8cb8856c13}
+      \strng{fullhash}{5e636e3a52494dc19e2bea8cb8856c13}
+      \strng{bibnamehash}{5e636e3a52494dc19e2bea8cb8856c13}
+      \strng{authorbibnamehash}{5e636e3a52494dc19e2bea8cb8856c13}
+      \strng{authornamehash}{5e636e3a52494dc19e2bea8cb8856c13}
+      \strng{authorfullhash}{5e636e3a52494dc19e2bea8cb8856c13}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AUC Kinanthropologica}
+      \field{number}{1}
+      \field{title}{Changes in dual energy {X}-ray absorptiometry body composition scores in females following exercise-induced body fluid redistribution}
+      \field{volume}{60}
+      \field{year}{2024}
+      \field{pages}{49\bibrangedash 65}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.14712/23366052.2024.4
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,14 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'tesis.blg'
+[96] biber-darwin:340> INFO - === Sun Jul  5, 2026, 23:21:54
+[119] Biber.pm:419> INFO - Reading 'tesis.bcf'
+[244] Biber.pm:979> INFO - Found 39 citekeys in bib section 0
+[261] Biber.pm:4419> INFO - Processing section 0
+[276] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia/fuentes.bib' for section 0
+[279] bibtex.pm:1713> INFO - LaTeX decoding ...
+[340] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia/fuentes.bib'
+[726] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[726] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[726] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[758] bbl.pm:660> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[791] bbl.pm:763> INFO - Output to tesis.bbl

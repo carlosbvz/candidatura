@@ -1,0 +1,82 @@
+\documentclass[../tesis.tex]{subfiles}
+\begin{document}
+
+\chapter*{Glosario}
+
+\begin{description}[font=\bfseries, leftmargin=4cm, style=nextline]
+
+    \item[Absorciometría de Rayos X de Energía Dual (DXA)]
+    Técnica de imagen de baja dosis radiactiva que mide la Densidad Mineral Ósea (DMO) y la
+    composición corporal a partir de la atenuación diferencial de dos haces de rayos X con
+    distinta energía. Es el estándar de oro para el diagnóstico de osteoporosis según los
+    criterios de la OMS (1994).
+
+    \item[Análisis Estructural de Cadera (HSA)]
+    Conjunto de métricas geométricas derivadas del escaneo DXA que caracterizan la resistencia
+    biomecánica del cuello femoral: Área de Sección Transversal (CSA), Índice de Sección de
+    Módulo Compuesto (CSMI), Longitud del Eje de la Cadera (HAL) y ancho cortical. Permite
+    estimar la fragilidad estructural de forma independiente a la DMO puntual.
+
+    \item[Densidad Mineral Ósea (DMO / BMD)]
+    Masa de mineral óseo por unidad de área proyectada (g/cm²), estimada por DXA en sitios
+    esqueléticos de interés clínico: cuello femoral, cadera total y columna lumbar (L1--L4).
+    Es la variable primaria sobre la que se calculan el T-score y el Z-score diagnósticos.
+
+    \item[Evaluación de Fractura Vertebral (VFA)]
+    Modalidad del DXA que genera una imagen lateral de la columna dorso-lumbar (T6--L4) con
+    dosis de radiación mínima, permitiendo la detección semicuantitativa de deformidades
+    vertebrales y micro-fracturas silenciosas mediante la clasificación de Genant (1993).
+
+    \item[Fractura por fragilidad]
+    Fractura producida por un mecanismo de baja energía, equivalente a una caída desde la propia
+    altura o por esfuerzo mínimo. Es indicativa de fragilidad esquelética subyacente y constituye
+    el desenlace clínico primario que los modelos de riesgo buscan predecir.
+
+    \item[FRAX]
+    Herramienta de cálculo probabilístico desarrollada por la Universidad de Sheffield (Kanis
+    et~al.) que combina la DMO del cuello femoral con once factores clínicos para estimar la
+    probabilidad absoluta de fractura mayor osteoporótica y de fractura de cadera a 10 años.
+    Se calibra por país a partir de datos de epidemiología de fracturas y mortalidad locales.
+
+    \item[Modelo multimodal]
+    Modelo predictivo que integra simultáneamente variables de distinta naturaleza o fuente
+    (p.ej. DMO + HSA + VFA + composición corporal + datos clínicos tabulares), en lugar de
+    basarse en una única señal. La fusión de modalidades permite capturar interacciones que
+    ningún marcador individual puede reflejar por sí solo.
+
+    \item[Osteosarcopenia]
+    Condición musculoesquelética sinérgica definida por la coexistencia de baja masa ósea
+    (osteopenia/osteoporosis) y sarcopenia. Implica un riesgo de caídas y fracturas
+    amplificado respecto al de cada condición por separado, y puede estar presente aun cuando
+    el T-score aislado se sitúe en rango normal.
+
+    \item[\textit{Pipeline} metodológico]
+    Secuencia estructurada de etapas de procesamiento de datos y modelado, desde la ingesta
+    y curación de la fuente de datos hasta la generación de un reporte interpretable para el
+    clínico.     En esta investigación: ETL $\rightarrow$ Integración multimodal $\rightarrow$
+    Modelo transversal $\rightarrow$ Interpretabilidad $\rightarrow$ Validación.
+
+    \item[SHAP (\textit{SHapley Additive exPlanations})]
+    Marco de interpretabilidad basado en la teoría de juegos cooperativos (valores de Shapley)
+    que asigna a cada variable predictora una contribución marginal cuantificada a la predicción
+    individual del modelo. Garantiza tres propiedades axiomáticas: precisión local (la suma de
+    contribuciones individuales iguala la predicción del modelo), \textit{missingness} (variables
+    ausentes reciben contribución cero) y consistencia (si una variable contribuye más bajo
+    cualquier coalición posible, su valor SHAP no disminuye).
+
+    \item[T-score]
+    Número de desviaciones estándar en las que la DMO de un paciente se aleja de la media de una
+    población adulta joven y sana de referencia, medida en el mismo sitio esquelético con el mismo
+    tipo de equipo. Criterio diagnóstico OMS: $\leq -2{,}5$ osteoporosis; entre $-2{,}5$ y
+    $-1{,}0$ osteopenia; $\geq -1{,}0$ normal.
+
+    \item[Z-score]
+    Número de desviaciones estándar en las que la DMO de un paciente se aleja de la media de
+    individuos de su misma edad, sexo y grupo étnico de referencia. A diferencia del T-score,
+    contextualiza la pérdida ósea respecto al envejecimiento esperado y es de utilidad clínica
+    preferente en pacientes premenopáusicas y adultos menores de 50 años.
+
+\end{description}
+    \newpage
+
+\end{document}

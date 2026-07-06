@@ -1,0 +1,169 @@
+\documentclass[../tesis.tex]{subfiles}
+\begin{document}
+
+\chapter{Introducción}
+\label{introduction}
+
+Este capítulo presenta el contexto clínico y científico que motiva la presente investigación, establece el estado de la literatura relevante, define el problema de investigación con sus preguntas de investigación asociadas, plantea la hipótesis de trabajo, establece los objetivos y el alcance del estudio.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Antecedentes y motivación}
+\label{antecedentes}
+% ─────────────────────────────────────────────────────────────────────────────
+
+La osteoporosis constituye uno de los mayores desafíos de salud pública a nivel global debido a su asociación directa con las fracturas por fragilidad. La carga epidemiológica y económica de esta enfermedad es considerable: se estiman más de 200 millones de personas afectadas en el mundo \cite{Johnell2006}, con 3{,}5 millones de fracturas nuevas registradas únicamente en la Unión Europea durante 2010, a un costo superior a los 37 mil millones de euros \cite{Kanis2019}.
+
+Las consecuencias de estas fracturas ---en particular las de cadera--- van más allá del dolor y la limitación funcional, asociándose con tasas de mortalidad del 15 al 36\,\% durante el primer año tras el evento, así como con discapacidad prolongada y un deterioro severo de la calidad de vida \cite{Kanis2019, CerdasPerez2026}.
+
+En el plano regional, \textcite{Medina2025} documentaron que la carga de osteoporosis y fracturas por fragilidad en América Latina ha aumentado significativamente en la última década, con tasas de fractura de cadera que oscilan entre 63 y 276{,}2 por 100.000 habitantes según el país, subrayando la urgencia de modelos diagnósticos adaptados a la realidad latinoamericana.
+
+En Costa Rica, este fenómeno adquiere una urgencia creciente: las proyecciones demográficas indican que el 25\,\% de la población superará los 65 años para 2050 \cite{INEC2024}, lo que anticipa un aumento sostenido en la prevalencia de enfermedades musculoesqueléticas relacionadas con el envejecimiento. Un estudio reciente en mujeres posmenopáusicas costarricenses atendidas en la Caja Costarricense de Seguro Social (CCSS) reportó una prevalencia de osteoporosis del 39\,\% y de osteopenia del 47\,\%, con la edad, la edad a la menarquia, los años transcurridos desde la menopausia y el antecedente familiar de fractura de cadera como predictores clínicos significativos \cite{CastroGamboa2022}.
+
+Pese a esta realidad, el paradigma diagnóstico clínico vigente presenta limitaciones estructurales importantes. Las herramientas de cribado disponibles ---FRAX\textregistered{}, OST y ORAI--- han sido calibradas principalmente con cohortes de Europa y América del Norte, lo que puede derivar en clasificaciones erróneas cuando se aplican a otras poblaciones \cite{BurnettBowie2024}. En este sentido, \textcite{Moncada2023}, utilizando el equipo DXA del Centro de Investigación en Movimiento Humano (CIMOHU) de la Universidad de Costa Rica, documentaron diferencias estadísticamente significativas en la composición corporal entre adultos costarricenses y estadounidenses, subrayando la necesidad de modelos diagnósticos específicos para la población local.
+
+El equipo DXA genera cientos de variables numéricas que abarcan la composición corporal regional (masa grasa, masa magra y masa ósea), parámetros del análisis estructural de cadera (\textit{Hip Structural Analysis}, HSA) y datos de morfometría vertebral. Sin embargo, la práctica clínica habitual descarta la mayor parte de esta información para emitir un diagnóstico basado en uno o dos T-scores. El aprendizaje automático (ML, por sus siglas en inglés) ofrece la posibilidad de integrar estas múltiples modalidades en un modelo predictivo que vaya más allá de la clasificación estática y permita estimar el riesgo individualizado de desarrollo de osteoporosis sin requerir exámenes adicionales, sin irradiación extra y sin costo adicional para el paciente.
+
+El CIMOHU de la UCR cuenta con un activo de datos único: 9.426 exámenes DXA de 3.231 adultos costarricenses con examen registrado (3.240 en la base de datos) entre 2009 y 2026, incluyendo 938 pacientes con dos o más visitas distintas y un seguimiento máximo de 14{,}15 años. Esta cohorte representa una oportunidad sin precedentes para desarrollar y validar modelos de clasificación multimodal adaptados a la realidad demográfica y clínica del país.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Organización del documento}
+\label{outline}
+% ─────────────────────────────────────────────────────────────────────────────
+
+El presente documento se organiza de la siguiente manera: el Capítulo~1 ---la presente introducción--- establece el contexto clínico y científico, revisa la literatura profesional relevante, define el problema de investigación, presenta la hipótesis, los objetivos y el alcance del estudio; el Capítulo~2 desarrolla el marco teórico sobre osteoporosis, la tecnología DXA y los fundamentos de los algoritmos de ML relevantes; el Capítulo~3 describe la metodología de investigación, incluyendo el diseño del estudio, el \textit{pipeline} de datos y el plan de validación estadística; el Capítulo~4 presenta los resultados preliminares y su análisis. Se incluyen además apéndices con material de referencia complementario.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Literatura profesional}
+\label{literatura}
+% ─────────────────────────────────────────────────────────────────────────────
+
+Existen distintos enfoques y algoritmos que han sido desarrollados para estimar el riesgo de osteoporosis, con una evolución que va desde las herramientas clínicas de cribado pre-DXA, pasando por la consolidación de la densitometría ósea como estándar diagnóstico internacional, hasta los modelos de aprendizaje automático multimodales que buscan aprovechar la riqueza de datos que dicho estándar genera pero que la práctica clínica habitualmente descarta. A continuación se revisa la literatura más relevante para establecer el estado del arte y justificar la línea de trabajo propuesta.
+
+\subsection{Herramientas clínicas de cribado}
+
+Las herramientas de cribado clínico más utilizadas a nivel mundial son FRAX\textregistered{}, OST y ORAI\@. FRAX\textregistered{} es un modelo probabilístico desarrollado en la Universidad de Sheffield bajo el aval de la OMS que estima la probabilidad a 10 años de fractura de cadera y de fractura mayor osteoporótica, integrando la DMO del cuello femoral con hasta once factores de riesgo clínicos \cite{Kanis2008}. OST (\textit{Osteoporosis Self-Assessment Tool}) y ORAI (\textit{Osteoporosis Risk Assessment Instrument}) son índices más simples basados en variables clínicas de fácil acceso ---edad y peso corporal para el OST; edad, peso corporal y antecedente de terapia de reemplazo estrogénico para el ORAI---, diseñados para un cribado rápido sin necesidad de DXA\@. Si bien estas herramientas han demostrado utilidad en las poblaciones para las que fueron calibradas, reportes recientes ---incluyendo la declaración de la ASBMR Task Force de 2024--- reconocen que los valores de referencia utilizados provienen de cohortes predominantemente caucásicas y que pueden clasificar erróneamente a poblaciones de otras regiones o grupos raciales y étnicos subrepresentados \parencite{BurnettBowie2024}.
+
+\subsection{DXA como estándar diagnóstico y sus limitaciones}
+
+La Organización Mundial de la Salud estableció en 1994 la Absorciometría de Rayos X de Energía Dual (DXA) como el estándar de referencia para el diagnóstico de la osteoporosis, cuantificando la Densidad Mineral Ósea (DMO) mediante el \textit{T-score}: número de desviaciones estándar que separan la DMO del paciente de la media de una población adulta joven y sana \cite{WHO1994}. Este criterio ---T-score $\leq -2{,}5$ para osteoporosis, entre $-2{,}5$ y $-1{,}0$ para osteopenia--- se convirtió en el lenguaje universal del diagnóstico óseo y sigue siendo el eje central de las guías clínicas actuales.
+
+Sin embargo, la tecnología DXA genera un espectro de información considerablemente más rico que un único T-score. Los equipos modernos ---como el GE Lunar Prodigy utilizado en el CIMOHU--- producen, en un mismo examen y sin irradiación adicional, cientos de variables que comprenden la composición corporal regional (masa grasa, masa magra y masa ósea por región anatómica), el Análisis Estructural de Cadera (\textit{Hip Structural Analysis}, HSA) con métricas de geometría cortical y rigidez seccional, y la Evaluación de Fractura Vertebral (VFA) con morfometría de cuerpos vertebrales. La práctica clínica habitual descarta la práctica totalidad de esta información para emitir un diagnóstico basado en uno o dos T-scores.
+
+Esta reducción a un único escalar colapsa una señal multidimensional rica, omitiendo características geométricas, estructurales y de composición corporal que tienen valor predictivo independiente para el riesgo de fractura \parencite{AibarAlmazan2022}. Es precisamente esta brecha ---un instrumento de referencia que genera datos multimodales subutilizados--- la que ha motivado la aplicación del aprendizaje automático a la predicción de la osteoporosis, como se detalla a continuación.
+
+\subsection{Modelos de aprendizaje automático para osteoporosis}
+
+El estudio de \textcite{Yoo2013} constituyó uno de los primeros referentes del uso de ML para predicción de osteoporosis, aplicando SVM, \textit{Random Forest} y redes neuronales artificiales en mujeres coreanas posmenopáusicas y alcanzando un AUC de 0{,}827. Desde entonces, la literatura ha evolucionado rápidamente. \textcite{Je2025} aplicaron XGBoost sobre la cohorte KoGES Ansan-Ansung de Corea del Sur (4.199 mujeres), obteniendo un AUC de 0{,}84 y superando a ORAI (0{,}74) y OST (0{,}71). \textcite{Jin2025} entrenaron XGBoost con valores SHAP sobre registros de historia clínica electrónica en China y validaron el modelo de forma transcultural en datos de EE.\,UU., alcanzando AUC de 0{,}805--0{,}811. \textcite{Carvalho2025} lograron el mayor desempeño reportado hasta la fecha ---AUC 0{,}94 con exactitud del 93\,\%--- mediante un ensamble de apilamiento que combina \textit{Gradient Boosting}, \textit{Random Forest}, XGBoost y LightGBM, sin utilizar datos DXA; su variable objetivo combina el criterio densitométrico de la OMS con criterios antropométricos de percentil extremo (peso, edad y circunferencia muscular del brazo) sobre datos clínicos y bioquímicos de NHANES, lo que constituye una tarea de clasificación distinta y lo excluye como cota de comparación directa para modelos entrenados y evaluados exclusivamente sobre T-score DXA\@. Un metaanálisis de pruebas diagnósticas de \textcite{Rahim2023} centrado específicamente en imágenes DXA de cadera (7 estudios; $\sim$314.000 pacientes) reportó una sensibilidad agrupada de 0{,}844, especificidad de 0{,}781 y AUC sROC de 0{,}878. A escala aún mayor, \textcite{Wu2023} revisaron 53 estudios con más de 15 millones de pacientes y estimaron un C-index agrupado de 0{,}75 para la predicción de riesgo de fractura mediante ML.
+
+En el contexto latinoamericano, la literatura sobre aprendizaje automático aplicado a la fragilidad ósea es sumamente escasa, evidenciando una brecha tecnológica significativa.
+Un esfuerzo pionero en la región es el de \textcite{Miranda2021}, quienes en Chile utilizaron Máquinas de Vectores de Soporte (SVM) con eliminación recursiva de características (RFE) sobre datos de ultrasonido de transmisión axial bidireccional (BDAT) y variables clínicas (edad, IMC y uso de glucocorticoides).
+El modelo alcanzó una exactitud de clasificación del 71\,\%, cifra que los propios autores comparan directamente con el AUC de 0{,}71 reportado para la DXA femoral como referencia en el mismo estudio; dado que exactitud y AUC-ROC son métricas conceptualmente distintas (la primera depende del umbral de decisión y del balance de clases, la segunda no), esta equivalencia numérica debe interpretarse como una aproximación informal de los propios autores y no como una equivalencia estadística estricta.
+Con ese matiz, el estudio establece un \textit{baseline} regional de rendimiento algorítmico, evidenciando el amplio margen de mejora que la integración de datos DXA multimodales de mayor fidelidad puede aportar en poblaciones hispanas.
+Un segundo referente clave proviene de Argentina: \textcite{Vega2024} entrenaron una red neuronal artificial (ANN-MLP) sobre datos densitométricos y antropométricos DXA de 478 mujeres, alcanzando un AUC de 0{,}81 $\pm$ 0{,}03 ---el mejor resultado documentado con datos DXA reales en América Latina--- y demostrando que la información multimodal del equipo estándar contiene señal predictiva relevante para la estratificación del riesgo en contextos LMIC.
+Destaca también el trabajo de \textcite{Albuquerque2023}, quienes aplicaron \textit{Random Forest} sobre la población brasileña utilizando señales de atenuación de ondas electromagnéticas del dispositivo portátil ``Osseus'' ---un equipo de investigación especializado, no disponible en entornos clínicos estándar--- y reportaron un AUC de 0{,}894. Si bien este resultado confirma que existe señal predictiva en poblaciones latinoamericanas, el dispositivo ``Osseus'' no es equiparable al DXA clínico: no genera composición corporal regional, geometría ósea (HSA) ni morfometría vertebral (VFA). Por tanto, la brecha de modelos predictivos basados en las modalidades multimodales del DXA estándar para la región sigue intacta.
+
+\subsection{Fragmentación de modalidades y brecha multimodal}
+
+A pesar de estos avances, la literatura existente presenta una fragmentación metodológica importante. Los estudios de ML para osteoporosis han abordado las modalidades de datos de manera aislada: algunos utilizan exclusivamente datos tabulares de cuestionarios o historia clínica \parencite{Yoo2013, Je2025}, otros se enfocan únicamente en la segmentación de imágenes DXA o radiografías \cite{Hussain2024}, y algunos emplean radiografías dentales o imágenes de muñeca como aproximaciones indirectas a la DMO\@. Revisiones recientes sobre IA en osteoporosis subrayan que la integración multimodal ---combinando señales de imagen, geometría ósea, composición corporal y factores clínicos--- es la frontera activa del campo, a la vez que señalan la heterogeneidad metodológica y la falta de validación externa como limitaciones persistentes \parencite{Ong2023, Conforti2026}. Algunos trabajos han dado pasos en esa dirección: Wu et al.\ \parencite{Wu2025multimodal} fusionaron radiografías de tórax con datos clínicos en un modelo de \textit{deep learning} y mejoraron el AUC de 0{,}951 a 0{,}975, aunque su estudio se limita a dos modalidades y carece de validación externa. Hasta la fecha, ningún estudio ha integrado de forma sistemática el espectro completo de modalidades que el DXA clínico genera ---DMO, composición corporal, HSA y morfometría vertebral--- en un \textit{pipeline} unificado entrenado sobre una cohorte latinoamericana.
+
+El análisis estructural de cadera (HSA) provee métricas geométricas ---longitud del eje de la cadera (HAL), índice de sección de módulo compuesto (CSMI), área de sección transversal (CSA) y ancho cortical--- que capturan la resiliencia estructural del hueso de manera tridimensional a partir de un escaneo DXA bidimensional. La combinación de estas variables con la DMO y la composición corporal (masa magra y grasa por región) genera un perfil multimodal latente que los modelos actuales no han explotado de forma integral.
+
+\subsection{Brecha geográfica: Costa Rica y Centroamérica}
+
+La inmensa mayoría de los modelos de ML publicados han sido entrenados y validados con datos de Asia Oriental, Europa o América del Norte. Los estudios publicados con datos costarricenses ---\textcite{CastroGamboa2022}, \textcite{Moncada2023}, \textcite{Montiel2023} y \textcite{CerdasPerez2026}--- se limitan a análisis estadísticos descriptivos y epidemiológicos y no aplican técnicas de ML\@. No existe ningún modelo de predicción de osteoporosis basado en ML que haya sido calibrado específicamente con datos de la población costarricense o centroamericana. Esta brecha es la que la presente investigación busca cerrar, aprovechando el activo de datos DXA del CIMOHU.
+
+\subsection*{Síntesis de la revisión}
+
+En conjunto, la revisión de la literatura evidencia una evolución sostenida desde herramientas clínicas de cribado de baja resolución hacia modelos de ML progresivamente más precisos, pero revela tres brechas fundamentales que ningún estudio ha abordado de forma conjunta: (i) la fragmentación de las modalidades DXA en enfoques unimodales, que desaprovecha el espectro completo de información que el equipo genera; (ii) la carencia total de modelos calibrados para la población costarricense o centroamericana, pese a que \textcite{Medina2025} y \textcite{CerdasPerez2026} documentan patrones epidemiológicos propios de la región; y (iii) la subutilización del activo de datos DXA del CIMOHU. Estas brechas son precisamente las que estructuran el problema de investigación presentado en la sección siguiente.
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Descripción del problema}
+\label{problema}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\subsection{Pregunta de investigación}
+
+La brecha identificada en la literatura conduce a la siguiente pregunta de investigación que guía este trabajo:
+
+\begin{displayquote}
+\textbf{¿Puede un modelo de ML multimodal} ---entrenado con datos de DMO, composición corporal, análisis estructural de cadera y morfometría vertebral del CIMOHU--- \textbf{superar en al menos $\Delta$AUC $\geq$ 0{,}05} a los comparadores clínicos de línea base ejecutables sobre los datos disponibles ---T-score umbral, OST y regresión logística mínima (edad + sexo + IMC)--- en la clasificación binaria osteoporosis vs.\ no osteoporosis en adultos costarricenses?
+\end{displayquote}
+
+\subsection{Brechas específicas}
+
+Ningún estudio publicado ha construido un modelo de ML para la estratificación del riesgo de osteoporosis utilizando datos DXA multimodales reales de una población latinoamericana o costarricense. La contribución de esta investigación no es proponer un nuevo dispositivo diagnóstico, sino demostrar el valor latente de los datos que el equipo DXA estándar ya genera en contextos clínicos reales ---datos que la práctica clínica habitual descarta--- y construir el primer \textit{pipeline} multimodal calibrado con una cohorte costarricense. Las brechas específicas que esta investigación aborda son:
+
+\begin{itemize}
+    \item Las herramientas de cribado clínico disponibles (FRAX\textregistered{}, OST, ORAI) están calibradas para poblaciones caucásicas y pueden clasificar erróneamente a pacientes costarricenses, sin que exista un comparador validado localmente.
+
+    \item Los modelos de ML publicados emplean modalidades únicas (sólo DMO tabular o sólo imágenes), sin integrar el espectro multimodal que el equipo DXA genera (DMO + composición corporal + HSA + morfometría vertebral) en un \textit{pipeline} unificado.
+
+    \item La base de datos DXA del CIMOHU ---17 años de datos de 3.240 pacientes costarricenses--- no ha sido analizada con técnicas de ML, constituyendo un activo científico sin explotar.
+\end{itemize}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Hipótesis}
+\label{hipotesis}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\begin{displayquote}
+\textbf{H:} Un modelo de ML multimodal entrenado sobre los datos DXA del CIMOHU superará en $\Delta$AUC $\geq 0{,}05$ a los comparadores clínicos de línea base ejecutables sobre los datos disponibles ---T-score umbral, OST y regresión logística mínima (edad + sexo + IMC)--- en la clasificación binaria osteoporosis vs.\ no osteoporosis sobre la cohorte CIMOHU.
+\end{displayquote}
+
+\noindent Equivalentemente en notación formal:
+\begin{equation}
+  \label{eq:hipotesis}
+  \Delta\text{AUC}
+  \;\triangleq\;
+  \text{AUC}(\hat{M}) \;-\; \max_{f \,\in\, \mathcal{B}}\,\text{AUC}(f)
+  \;\geq\; 0{,}05
+\end{equation}
+donde $\hat{M}$ denota el mejor modelo ML multimodal entrenado sobre los datos DXA del CIMOHU y $\mathcal{B} = \{f_{\text{T-score}},\, f_{\text{OST}},\, f_{\text{LR(edad+sexo+IMC)}}\}$ es el conjunto de comparadores clínicos de línea base.
+
+\medskip
+\textbf{Condiciones de evaluación.} El objetivo de H es cuantificar la superioridad del enfoque multimodal DXA sobre el estándar diagnóstico actual, excluyendo modelos construidos con tecnologías de adquisición distintas al DXA (§~\ref{literatura}). La diferencia en AUC será estadísticamente significativa con la prueba pareada de DeLong \parencite{DeLong1988} ($p < 0{,}05$). El modelo conservará interpretabilidad mediante valores SHAP\@.
+
+De forma complementaria y pre-especificada, H también se evaluará mediante:
+\begin{equation}
+  \label{eq:criterio_f1}
+  \Delta F1 \;\triangleq\; F1(\hat{M}) - F1(f_{\text{ref}}) \;\geq\; 0{,}10
+\end{equation}
+H se considerará respaldada si se satisface al menos uno de los dos criterios pre-especificados:
+\begin{equation}
+  \label{eq:regla_decision}
+  \text{H respaldada} \iff
+  \underbrace{\bigl(\Delta\text{AUC} \geq 0{,}05 \;\wedge\; p_{\text{DeLong}} < 0{,}05\bigr)}_{\text{criterio primario}}
+  \;\vee\;
+  \underbrace{\bigl(\Delta F1 \geq 0{,}10 \;\wedge\; \text{AUC}(\hat{M}) \geq \text{AUC}(f_{\text{ref}})\bigr)}_{\text{criterio complementario}}
+\end{equation}
+Los umbrales numéricos, la regla de decisión y los riesgos metodológicos asociados se pre-especifican en §~\ref{sec:fase5_validacion}; los valores del comparador de línea base que anclan dichos umbrales se reportan en §~\ref{sec:resultados_piloto} (Tabla~\ref{tab:piloto}).
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Objetivos}
+\label{objectives}
+% ─────────────────────────────────────────────────────────────────────────────
+
+\subsection{Objetivo general}
+
+Desarrollar, comparar y evaluar múltiples modelos de aprendizaje automático para la predicción del riesgo de osteoporosis en adultos costarricenses, utilizando datos DXA multimodales del CIMOHU, con el fin de identificar el algoritmo que ofrece la mayor precisión y exactitud para este escenario clínico y poblacional.
+
+\subsection{Objetivos específicos}
+
+\begin{enumerate}
+    \item \textbf{OE1:} Construir un \textit{dataset} integrado y multimodal a partir de la base de datos DXA del CIMOHU, unificando registros de densitometría (128.910), composición corporal (94.709), T-scores/Z-scores (475.205), análisis estructural de cadera (HSA, 1.530) y morfometría vertebral (2.499), con limpieza, normalización y manejo de datos faltantes.
+
+    \item \textbf{OE2:} Desarrollar un modelo de clasificación transversal del riesgo de osteoporosis, entrenando y comparando múltiples algoritmos de ML ---SVM, \textit{Random Forest}, XGBoost/LightGBM y redes neuronales artificiales--- sobre el \textit{dataset} multimodal del CIMOHU. La variable objetivo primaria, y la única formalmente evaluada por H mediante AUC-ROC y la prueba de DeLong, es la clasificación \textbf{binaria} osteoporosis vs.\ no osteoporosis (T-score $\leq -2{,}5$ vs.\ $> -2{,}5$); la clasificación de tres niveles de la OMS (Normal / Osteopenia / Osteoporosis) se reportará de forma descriptiva y exploratoria como caracterización adicional del riesgo, sin sustituir la formulación binaria de H.
+
+    \item \textbf{OE3:} Comparar el rendimiento de todos los algoritmos bajo condiciones idénticas de datos y partición, evaluar la contribución marginal de cada modalidad DXA mediante análisis de ablación, e interpretar los modelos mediante valores SHAP y \textit{permutation importance}, generando un \textit{ranking} fundamentado con recomendación del modelo más adecuado para la población costarricense.
+\end{enumerate}
+
+% ─────────────────────────────────────────────────────────────────────────────
+\section{Alcance y limitaciones}
+\label{scope}
+% ─────────────────────────────────────────────────────────────────────────────
+
+El presente estudio se enmarca en un análisis retrospectivo de datos secundarios, obtenidos de la base de datos \texttt{prodigy.db} del CIMOHU. El alcance se limita a la población de adultos costarricenses registrados en ese sistema entre 2009 y 2026 y no incluye datos de otras instituciones ni la realización de exámenes clínicos nuevos.
+
+Los modelos desarrollados no constituyen una herramienta de diagnóstico clínico certificada; su aplicación clínica requeriría validación externa prospectiva y aprobación regulatoria por las autoridades competentes. Asimismo, el estudio no contempla el procesamiento de imágenes DXA crudas (archivos DICOM) ni el uso de redes neuronales convolucionales sobre esas imágenes, lo que queda señalado como línea de trabajo futuro.
+
+\end{document}

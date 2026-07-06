@@ -1,0 +1,46 @@
+\documentclass[../tesis.tex]{subfiles}
+\begin{document}
+
+\chapter{Clasificación de métodos de predicción}
+\label{apendice:clasificacion_ml}
+
+La siguiente tabla ilustra los métodos de aprendizaje automático revisados en la literatura,
+clasificados según el \textbf{tipo de datos de entrada} ---Datos Clínicos Tabulares frente a
+Imágenes/Radiómica (CT/DXA)--- para la \textbf{clasificación transversal del riesgo de osteoporosis}.
+Esta clasificación justifica la escalera de algoritmos propuesta en el Capítulo~3 y evidencia
+que el enfoque multimodal de \textit{DeepDXA} atiende la brecha de integración multimodal
+menos explorada en el estado del arte latinoamericano.
+
+\vspace{0.5em}
+
+\begin{table}[h]
+\centering
+\caption{Clasificación de la literatura principal de clasificación transversal de osteoporosis según el tipo de datos de entrada.}
+\label{tab:clasificacion_ml}
+\renewcommand{\arraystretch}{1.6}
+\rowcolors{2}{gray!12}{white}
+\begin{tabular}{p{4.2cm} p{5.2cm} p{5.2cm}}
+\toprule
+\rowcolor{tableheader}
+\textbf{Objetivo clínico} &
+\textbf{Datos clínicos / Tabulares} &
+\textbf{Imágenes / Radiómica (CT/DXA)} \\
+\midrule
+\textbf{Clasificación transversal} \newline
+(Normal vs.\ Osteoporosis) &
+\textit{Random Forest / XGBoost / SVM} \newline
+Carvalho \& Gavaia~\cite{Carvalho2025} \newline
+Je et al.~\cite{Je2025} \newline
+Jin et al.~\cite{Jin2025} \newline
+Yoo et al.~\cite{Yoo2013} \newline
+Miranda et al.~\cite{Miranda2021} \newline
+\textit{(SVM / BDAT ultrasonido, Chile)} &
+\textit{CNN / Deep Learning} \newline
+Ong et al.~\cite{Ong2023} \newline
+Rahim et al.~\cite{Rahim2023} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\clearpage
+\end{document}

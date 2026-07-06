@@ -1,0 +1,57 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Lista de tablas}{\es@scroman {v}}{}%
+\contentsline {chapter}{Tabla de figuras}{\es@scroman {vi}}{}%
+\contentsline {chapter}{Glosario}{\es@scroman {vii}}{}%
+\contentsline {chapter}{Acronimos}{\es@scroman {x}}{}%
+\contentsline {chapter}{\chapternumberline {1}Introducción}{1}{}%
+\contentsline {section}{\numberline {1.1}Antecedentes y motivación}{1}{}%
+\contentsline {section}{\numberline {1.2}Organización del documento}{2}{}%
+\contentsline {section}{\numberline {1.3}Literatura profesional}{3}{}%
+\contentsline {subsection}{Herramientas clínicas de cribado}{3}{}%
+\contentsline {subsection}{DXA como estándar diagnóstico y sus limitaciones}{3}{}%
+\contentsline {subsection}{Modelos de aprendizaje automático para osteoporosis}{4}{}%
+\contentsline {subsection}{Fragmentación de modalidades y brecha multimodal}{5}{}%
+\contentsline {subsection}{Brecha geográfica: Costa Rica y Centroamérica}{6}{}%
+\contentsline {section}{\numberline {1.4}Descripción del problema}{7}{}%
+\contentsline {subsection}{Pregunta de investigación}{7}{}%
+\contentsline {subsection}{Brechas específicas}{7}{}%
+\contentsline {section}{\numberline {1.5}Hipótesis}{8}{}%
+\contentsline {section}{\numberline {1.6}Objetivos}{9}{}%
+\contentsline {subsection}{Objetivo general}{9}{}%
+\contentsline {subsection}{Objetivos específicos}{9}{}%
+\contentsline {section}{\numberline {1.7}Alcance y limitaciones}{9}{}%
+\contentsline {chapter}{\chapternumberline {2}Marco teórico}{11}{}%
+\contentsline {section}{\numberline {2.1}Densitometría ósea, diagnóstico de la osteoporosis y modalidades DXA}{11}{}%
+\contentsline {subsection}{Análisis Estructural de Cadera (HSA)}{12}{}%
+\contentsline {subsection}{Evaluación de Fractura Vertebral (VFA)}{12}{}%
+\contentsline {subsection}{Composición corporal regional}{12}{}%
+\contentsline {section}{\numberline {2.2}Aprendizaje automático para clasificación transversal}{15}{}%
+\contentsline {subsection}{Regresión logística}{15}{}%
+\contentsline {subsection}{\textit {Random Forest}}{16}{}%
+\contentsline {subsection}{XGBoost y LightGBM}{16}{}%
+\contentsline {subsection}{\textit {Support Vector Machines}}{16}{}%
+\contentsline {subsection}{Red neuronal perceptrón multicapa (MLP)}{17}{}%
+\contentsline {subsection}{Manejo del desbalance de clases}{17}{}%
+\contentsline {section}{\numberline {2.3}Métricas de evaluación}{17}{}%
+\contentsline {subsection}{Métricas de clasificación transversal}{18}{}%
+\contentsline {section}{\numberline {2.4}Interpretabilidad de modelos y valores SHAP}{18}{}%
+\contentsline {chapter}{\chapternumberline {3}Metodología}{20}{}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{20}{}%
+\contentsline {section}{\numberline {3.2}Fase 1: Consolidación y preprocesamiento (\textit {ETL})}{20}{}%
+\contentsline {section}{\numberline {3.3}Fase 2: Integración multimodal y manejo de desbalance}{22}{}%
+\contentsline {section}{\numberline {3.4}Fase 3: Desarrollo de modelos de clasificación transversal}{24}{}%
+\contentsline {section}{\numberline {3.5}Fase 4: Validación estadística e interpretabilidad}{25}{}%
+\contentsline {section}{\numberline {3.6}Cronograma de trabajo}{26}{}%
+\contentsline {chapter}{\chapternumberline {4}Resultados preliminares y análisis}{28}{}%
+\contentsline {section}{\numberline {4.1}Estado de la consolidación de la base de datos (\textit {ETL})}{28}{}%
+\contentsline {section}{\numberline {4.2}Estadísticas descriptivas de la cohorte CIMOHU}{29}{}%
+\contentsline {section}{\numberline {4.3}Auditoría de calidad de datos por modalidad}{30}{}%
+\contentsline {section}{\numberline {4.4}Experimento piloto: regresión logística de línea base}{32}{}%
+\contentsline {subsection}{Configuración del experimento}{32}{}%
+\contentsline {subsection}{Resultados}{33}{}%
+\contentsline {subsection}{Variables más relevantes (importancia de características)}{34}{}%
+\contentsline {section}{\numberline {4.5}Análisis de ablación de rescate: aporte de la composición corporal (Piloto B')}{34}{}%
+\contentsline {section}{\numberline {4.6}Discusión de los resultados preliminares}{36}{}%
+\contentsline {chapter}{Bibliografía}{38}{}%
+\contentsline {appendix}{\chapternumberline {A}Clasificación de métodos de predicción}{44}{}%
+\contentsline {appendix}{\chapternumberline {B}Distribución temporal de la literatura profesional}{45}{}%

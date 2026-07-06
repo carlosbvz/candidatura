@@ -1,0 +1,297 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% author:
+% email:
+% address:
+% copyright:
+% description:
+
+\documentclass[10pt,letterpaper,oneside]{memoir}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Preambulo  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Graficos %%
+\usepackage{graphicx}
+\graphicspath{{img}{./imagenes/}}
+%%%%%%%%%%%%%%
+
+%% Composicion modular %%
+\usepackage{subfiles}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% UTF - 8 %%
+% Permite utilizar caracteres UTF-8 dentro del texto del documento (p.ej. tildes :)), usando
+% LuaLatex (en lugar de Latex)
+\usepackage{fontspec}
+%%%%%%%%%%%%%
+
+%% Citas (quotes) %%
+\usepackage[autostyle]{csquotes}
+%%%%%%%%%%%%%%%%%%%%
+
+%% Imágenes %%
+\usepackage{float}
+\usepackage[labelfont=bf]{caption}
+%%%%%%%%%%%%%%
+
+%% Referencias %%
+% Estilo numérico IEEE: citas en formato [1], [2], [3] ordenadas por orden de aparición.
+\usepackage[english, spanish]{babel}
+\usepackage[backend=biber, style=numeric, sorting=none]{biblatex}
+\DefineBibliographyStrings{spanish} {
+    andothers = {et al.},
+}
+\addbibresource{bibliografia/fuentes.bib}
+%%%%%%%%%%%%%%%%%
+
+
+%% Tabulación %%
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{babel}
+\definecolor{tableheader}{RGB}{200,200,200}
+%%%%%%%%%%%%%%%%
+
+%% Doble espacio %%
+\DisemulatePackage{setspace} % necesario para memoir
+\usepackage{setspace}
+\doublespacing
+%%%%%%%%%%%%%%%%%%%
+
+%% Notación matemática %%
+\usepackage{amssymb}
+\usepackage{amsmath}
+%%%%%%%%%%%%%%%%%%%
+
+%% Listas %%
+\usepackage{enumitem}
+%%%%%%%%%%%%
+
+%% Margenes %%
+\usepackage[lmargin=2.5cm, rmargin=2.5cm, bmargin=3cm, tmargin=3cm, bindingoffset=1cm]{geometry}
+%%%%%%%%%%%%%%
+
+%% Codigo fuente %%
+\usepackage{courier}
+\usepackage{listings}
+\setmonofont[Scale=0.85]{Courier New}
+\definecolor{light-gray}{gray}{0.95}
+\lstset{
+    backgroundcolor = \color{light-gray},
+    basicstyle = \footnotesize\ttfamily,
+    breakatwhitespace = false,
+    breaklines = false,
+    captionpos = b,
+    frame = single,
+    numbers = left,
+    numbersep = 5pt,
+    showstringspaces = false,
+    stepnumber = 1,
+    tabsize = 4,
+}
+
+%%%%%%%%%%%%%%%%%%%
+
+%% Insertar PDFs %%
+\usepackage{pdfpages}
+%%%%%%%%%%%%%%%%%%%
+
+%% Tablas %%
+\usepackage{booktabs}
+\usepackage{caption, subcaption}
+%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Comandos  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Expansiones de texto %%
+\newcommand{\figref}[1]{Fig.~\ref{fig:#1}}
+\newcommand{\coderef}[1]{Fragmento~\ref{code:#1}}
+\newcommand{\thesistitle}{APRENDIZAJE AUTOMÁTICO MULTIMODAL PARA LA PREDICCIÓN DE RIESGO DE OSTEOPOROSIS}
+%\newcommand{\thesistitle}{Clasificación en fenotipos de células vivas caracterizando la fase M a partir de microscopía de campo claro}
+\newcommand{\addblankpage}{\newpage\null\thispagestyle{empty}\newpage}
+
+%% Tabla de contenidos %%
+\addto\captionsspanish{
+    \renewcommand{\appendixname}{Apendice}
+    \renewcommand{\appendixpagename}{Apendice}
+    \renewcommand{\appendixtocname}{Apendice}
+    \renewcommand{\bibname}{Bibliografía}
+    \renewcommand{\chaptername}{Capítulo}
+    \renewcommand{\contentsname}{Tabla de contenido}
+    \renewcommand{\listfigurename}{Tabla de figuras}
+    \renewcommand{\listtablename}{Lista de tablas}
+    \renewcommand{\lstlistingname}{Algortimo}
+    \renewcommand{\lstlistlistingname}{Lista de algoritmos}
+    \renewcommand{\figurename}{Figura}
+    \renewcommand{\tablename}{Tabla}
+}
+\renewcommand*{\cftappendixname}{\appendixname\space}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Estilos de pagina %%
+\usepackage{fancyhdr}
+
+\fancypagestyle{frontmatterstyle}{%
+    \fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyfoot[C]{\thepage}
+}
+
+\fancypagestyle{mainmatterstyle}{%
+    \fancyhf[R]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+%	\fancyfoot[R]{\thepage}
+	\fancyfoot{}
+}
+
+\fancypagestyle{backmatterstyle}{%
+    \fancyhf[R]{\thepage}
+	\renewcommand{\headrulewidth}{0pt}
+%	\fancyfoot[R]{\thepage}
+	\fancyfoot{}
+}
+
+\fancypagestyle{coverstyle}{%
+    \fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+}
+
+% Para formato de tabla de contenidos
+\fancypagestyle{plain}{%
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyfoot[C]{\thepage}
+}
+
+% Para formato de capitulos
+\newcommand{\redefineplainstyle}{%
+	\fancypagestyle{plain}{%
+		\fancyhf[R]{\thepage}
+		\renewcommand{\headrulewidth}{0pt}
+%		\fancyfoot[R]{\thepage}
+		\fancyfoot{}
+	}
+	\pagestyle{plain}
+}
+
+\setlength{\headheight}{14pt}
+\setlength{\parindent}{20pt}
+\renewcommand{\chapterheadstart}{\vspace*{-30pt}}
+\setlength{\beforechapskip}{-30pt}
+\setlength{\afterchapskip}{20pt}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}} 
+
+
+% Multiple row tables
+\usepackage{multirow}
+
+% simple import of csv files. Demo
+\usepackage{csvsimple}
+
+% landscape pages
+\usepackage{lscape}
+
+% use dots instead of commas
+
+\decimalpoint
+
+\usepackage[linesnumbered,algoruled,boxed,lined]{algorithm2e}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Contenido  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\thesistitle}
+\author{}
+\date{}
+\begin{document}
+
+    %% Portada %%
+    \pagestyle{coverstyle}
+    % \pagenumbering{gobble}
+
+    \subfile{tex/portada}
+    \newpage
+
+    %% Preambulo %%
+
+    \pagestyle{frontmatterstyle}
+    \pagenumbering{roman}
+    \setcounter{page}{2}
+
+    \subfile{tex/aceptacion}
+    \newpage
+
+    \tableofcontents*
+    \newpage
+    
+    \listoftables
+    \newpage
+    
+    \listoffigures
+    \newpage
+
+%    \lstlistoflistings
+%    \addcontentsline{toc}{chapter}{\lstlistlistingname}
+%    \newpage
+	
+	\addcontentsline{toc}{chapter}{Glosario}
+    \subfile{tex/glosario}
+    \newpage
+    
+    \addcontentsline{toc}{chapter}{Acronimos}
+    \subfile{tex/acronimos}
+    \newpage
+
+    \redefineplainstyle
+
+    %% Cuerpo de la tesis %%
+
+    \pagestyle{mainmatterstyle}
+    \pagenumbering{arabic}
+
+    \subfile{tex/introduccion}
+    \newpage
+
+    \subfile{tex/marco_teorico}
+    \newpage
+
+    \subfile{tex/metodologia}
+    \newpage
+
+    \subfile{tex/resultados_y_analisis}
+    \newpage
+
+    \subfile{tex/bibliografia}
+    \newpage
+
+    \pagestyle{backmatterstyle}
+    \chapterstyle{plain}
+
+    \appendix
+    \appendixpage*
+
+    \subfile{tex/apendiceA}
+    \newpage
+
+    \subfile{tex/apendiceB}
+    \newpage
+%
+%    \subfile{tex/codigo_fuente}
+%    \newpage
+
+
+\end{document}
